@@ -14,7 +14,7 @@ app.use(express.json());
 
 // 🔧 CONFIGURAÇÕES CUSTOMIZÁVEIS
 const ALERT_THRESHOLD = 541;
-const DELTA_MINIMO = 10;
+const DELTA_MINIMO = 3;
 // const TEMPO_RESET_MS = 15000; // tempo para resetar último valor (15 segundos)
 const TEMPO_RESET_MS = 2000;
 
